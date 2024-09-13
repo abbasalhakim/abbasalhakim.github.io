@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin:0;
+    padding:0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.drop-down {
+    display:none;
+    position:fixed;
+    background:#000d;
+    padding-top: 15vw;
+    width:100vw;
+    height:100vh;
+    top: 0;
+    left: 0;
+    z-index:5;
+    flex-direction: column;
+    align-items: center;
+
+}
+.shown{
+    display:flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vh 3vw;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+    align-items: center;
+}
+.header-hamb {
+    margin:0;
+    padding:0;
+    font-size: 4vw;
+    border-radius: 100%;
+    display: none;
+    transition: ease 0.2s;
+    cursor: pointer;
+    z-index:10;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    background-color: #fff;
+}
+
+.change .bar2 {opacity: 0;background-color: #fff;}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    background-color: #fff;
+}
+
+.header-hamb:hover {
+    background: #0003;
+}
+.header-title {
+    color: #000;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.header-button {
+    border: none;
+    background-color: #00000000;
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    transition: ease 0.2s
+}
+
+.call-to-action {
+    background-color: rgba(29, 190, 190, 0.849);
+    color: white;
+}
+
+.header-button:hover {
+    background-color: #0003;
+}
+.call-to-action:hover {
+    background-color: rgba(10, 236, 236, 0.849);
+    scale:120%;
+}
+
+.intro-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    padding: 6vh 3.5vw;
+    background: #00000033;
+    height: fit-content;
+    overflow: hidden;
+}
+
+
+
+.intro-text{
+    width: 30%;
+    font-size: 18px;
+}
+.profile-div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1vw;
+    margin-bottom: 3vw;
+}
+.profile-img {
+    width: 60%;
+    min-width: 200px;
+    border-radius: 80px;
+    box-shadow: 0 0.7vw 2vw 1vw gray;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+.social-button {
+    width:2vw;
+    height:2vw;
+    border-radius: 100%;
+    background: #333;
+    outline: white;
+    color: #cff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    transition: ease 0.2s;
+    text-decoration: none;
+}
+
+.social-button:hover {
+    translate: 0 -0.5vh;
+    box-shadow: 0 0 10px 5px rgba(10, 236, 236, 0.671);
+    color: rgba(10, 236, 236, 0.671);
+}
+
+
+.pageheader {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 3vw;
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+hr.dotted {
+    border-top: 3px dashed #bbb;
+    margin-bottom: 3vw;
+    width: 65vw;
+  }
+
+#research-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    padding: 0;
+    align-items: center;
+}
+
+.research-card {
+    width: 50vw;
+    border-radius: 1vw;
+    background:rgb(248, 248, 248);
+    box-shadow: 0 0 1vw gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw;
+    margin-bottom: 3vw;
+    transition: ease 0.4s;
+    user-select: none;
+    cursor: pointer;
+}
+.research-card:hover {
+    padding-top: 3.3vw;
+    padding-bottom: 3.3vw;
+}
+
+.hover-card2:hover:after {
+    content: "View More";
+    opacity: 100%;
+    text-align: center;
+    text-shadow: 0 0 1vw gray;
+}
+
+.research-subnode {
+    display: flex;
+    flex-direction: row;
+}
+
+.research-title-elm {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.research-author-elm {
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.research-journal-elm {
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.research-description-elm {
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+
+.drop-down {
+    display: none
+}
+@media screen and (max-width:1000px) {
+    .header-title {
+        font-size: 3vw;
+    }
+    .header-button {
+        font-size: 3vw;
+        color: white;
+        width: 80vw;
+        height: 8vh;
+        font-size: 150%;
+    }
+    .header-right {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: none;
+        gap: 4vh;
+        flex-grow: 1;
+    }
+    .shown {
+        display: flex;
+    }
+    .header-hamb {
+        display: inline-block;
+    }
+
+    .intro-sec {
+        flex-direction: column-reverse;
+    }
+    .social-buttons {
+        margin: 2vh;
+        gap: 10vw;
+    }
+    .social-button {
+        width:50px;
+        height: 50px;
+        font-size: 150%
+    }
+    .intro-text {
+        width: auto;
+        text-align: center;
+        padding: 1vw 4vh
+    }
+
+    .pageheader {
+        font-size: 4.5vw;
+    }
+    .research-card {
+        width:80vw;
+        align-items: center;
+
+    }
+    .research-title-elm {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .research-author-elm {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .research-journal-elm {
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .research-description-elm {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .research-subnode {
+        flex-direction: column;
+    }
+    .hover-card2::after {
+        content: "View More";
+        font-size: 3vw;
+        opacity: 100%;
+        text-align: center;
+        text-shadow: 0 0 1vw gray;
+    }
+    .tempElm {
+        display: none
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbas Alhakim - Profile</title>
+    <script src="https://kit.fontawesome.com/5c8f0fd9cc.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a class="header-title" href="index.html"><h1>Abbas Alhakim</h1></a>
+        <div class="header-right">
+            <form action="research.html"><input class="header-button" type="submit" value="Research"/></form>
+            <form action="teaching.html"><input class="header-button" type="submit" value="Teaching"/></form>
+            <form action="profile.html"><input class="header-button" type="submit" value="Curriculum Vitae"/></form>
+            <a href="mailto:aa145@aub.edu.lb"><button class="header-button call-to-action"><strong>Contact</strong></button></a>
+        </div>
+        <div class="header-hamb" onclick="dropdown(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="pageheader">Curriculum Vitae</h1>
+        <hr class="dotted">
+        <object data="profile.pdf" type="application/pdf" width="100%" height="100vh" style="min-height: 100vh;">
+            <p style="font-size: 2vw; flex-grow: 1; text-align: center">Unable to display - Click the link: <a href="./profile.pdf">to the PDF!</a></p>
+          </object>
+    </div>
+    <div class="drop-down">
+        <div class="header-right shown">
+            <form action="research.html"><input class="header-button" type="submit" value="Research"/></form>
+            <form action="teaching.html"><input class="header-button" type="submit" value="Teaching"/></form>
+            <form action="profile.html"><input class="header-button" type="submit" value="Curriculum Vitae"/></form>
+            <a href="mailto:aa145@aub.edu.lb"><button class="header-button call-to-action"><strong>Contact</strong></button></a>
+        </div>
+    </div>
+</body>
+</html>

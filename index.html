@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbas Alhakim</title>
+    <script src="https://kit.fontawesome.com/5c8f0fd9cc.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <a class="header-title" href="index.html"><h1>Abbas Alhakim</h1></a>
+        <div class="header-right">
+            <form action="research.html"><input class="header-button" type="submit" value="Research"/></form>
+            <form action="teaching.html"><input class="header-button" type="submit" value="Teaching"/></form>
+            <form action="profile.html"><input class="header-button" type="submit" value="Curriculum Vitae"/></form>
+            <a href="mailto:aa145@aub.edu.lb"><button class="header-button call-to-action"><strong>Contact</strong></button></a>
+        </div>
+        <div class="header-hamb" onclick="dropdown(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="intro-sec">
+                
+            <div id="intro-text" class="intro-text" style="font-size:1.5rem; text-align:center"></div>
+
+            <div class="profile-div">
+                <img src="profile-img.png" class="profile-img"/>
+                <div class="social-buttons">
+                    <a href="https://scholar.google.com/citations?user=EHZvsp8AAAAJ&hl=en" class="a.social" style="text-decoration: none;"><div class="social-button fa-brands fa-google-scholar"></div></a>
+                    <a href="https://www.researchgate.net/profile/Abbas-Alhakim" class="a.social" style="text-decoration: none;"><div class="social-button fa-brands fa-researchgate"></div></a>
+                    <a href="mailto:aa145@aub.edu.lb" class="a.social" style="text-decoration: none;"><div class="social-button fa fa-envelope"></div></a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <hr/>
+    <div><p style="padding:2vw; font-size:1.4rem; text-align:center; flex-grow:1">
+        <strong>Background</strong>
+        <hr/><hr/></p>
+            
+        <div id="background-sections" style="padding:4vw 10vw; font-size:1.4rem; text-align:center; flex-grow:1"></div>
+    </div>
+    <div class="drop-down">
+        <div class="header-right shown">
+            <form action="research.html"><input class="header-button" type="submit" value="Research"/></form>
+            <form action="teaching.html"><input class="header-button" type="submit" value="Teaching"/></form>
+            <form action="profile.html"><input class="header-button" type="submit" value="Curriculum Vitae"/></form>
+            <a href="mailto:aa145@aub.edu.lb"><button class="header-button call-to-action"><strong>Contact</strong></button></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #f1f1f1; padding: 1rem; text-align: center;display:flex;flex-direction:column;gap:10px">
+        <p style="margin: 0; font-size: 1rem; color: #333;">
+            <a href="index.html" style="color: #007BFF; text-decoration: none; margin: 0 1rem;">Home</a>
+            <a href="research.html" style="color: #007BFF; text-decoration: none; margin: 0 1rem;">Research</a>
+            <a href="teaching.html" style="color: #007BFF; text-decoration: none; margin: 0 1rem;">Teaching</a>
+            <a href="profile.html" style="color: #007BFF; text-decoration: none; margin: 0 1rem;">Curriculum Vitae</a>
+            
+        </p>
+        <a href="https://www.aub.edu.lb" style="color: #007BFF; text-decoration: none; margin: 0 1rem;" target="_blank">American University of Beirut</a>
+        <p style="margin: 10px 0; font-size: 0.9rem; color: #666;">
+            © 2024 Abbas Alhakim. All rights reserved.
+        </p>
+    </footer>
+    <!-- End Footer -->
+</body>
+</html>

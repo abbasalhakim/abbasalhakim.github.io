@@ -1,0 +1,421 @@
+{
+    
+    "hero": {
+        "introText": "<i>Abbas Alhakim<br/><i style='font-size:1.2rem'>Associate Professor<br/>American Unviersity of Beirut</i><br/><br/>An academic whose career in mathematics and statistics reflects a profound dedication to teaching, research, and community service.</i>"
+    },
+    "background": [
+        {
+            "icon": "fas fa-user-graduate",
+            "text": "Dr. Alhakim began his academic journey at the American University of Beirut (AUB), where he completed his undergraduate and master's studies in pure mathematics. He earned his Ph.D. in mathematics at the University of North Carolina at Charlotte (UNC Charlotte), focusing on probability theory and its applications."
+        },
+        {
+            "icon": "fas fa-university",
+            "text": "Following his doctoral studies, Dr. Alhakim joined the University of Deleware for two years before moving to Clarkson University in northern New York."
+        },
+        {
+            "icon": "fas fa-chalkboard-teacher",
+            "text": "Dr. Alhakim's path then led him back to his alma mater, AUB, where he continues to serve as an associate professor. At AUB, Dr. Alhakim is dedicated to conducting rigorous research and advancing the statistics program, teaching a variety of graduate and undergraduate courses in statistics and mathematics."
+        },
+        {
+            "icon": "fas fa-building",
+            "text": "Dr. Alhakim is always excited to discuss new mathematical and statistical ideas. Explore his work, research contributions, and teaching at AUB, and join him in the pursuit of mathematical and statistical advancement."
+        }
+    ],
+    "research" : [
+        {
+            "title" : "Efficient constructions of the Prefer-same and Prefer-opposite de Bruijn sequences",
+            "authors" : "Evan Sala, Joe Sawada, Abbas Alhakim",
+            "journal" : "ACM Transactions on Algorithms",
+            "description" : "<strong>Abstract</strong><br><br>The greedy Prefer-same de Bruijn sequence construction was first presented by Eldert et al. [AIEE Transactions 77 (1958)]. As a greedy algorithm, it has one major downside: it requires an exponential amount of space to store the length 2^n de Bruijn sequence. Though de Bruijn sequences have been heavily studied over the last 60 years, finding an efficient construction for the Prefer-same de Bruijn sequence has remained a tantalizing open problem. In this paper, we unveil the underlying structure of the Prefer-same de Bruijn sequence and solve the open problem by presenting an efficient algorithm to construct it using O(n) time per bit and only O(n) space. Following a similar approach, we also present an efficient algorithm to construct the Prefer-opposite de Bruijn sequence.",
+            "year" : 2024
+        },
+        {
+            "title" : "Orientable sequences over non-binary alphabets",
+            "authors" : "A Alhakim, CJ Mitchell, J Szmidt, PR Wild",
+            "journal" : "Cryptography and Communications, 1-18",
+            "description" : "<strong>Abstract</strong><br><br>We describe new, simple, recursive methods of construction for orientable sequences over an arbitrary finite alphabet, i.e. periodic sequences in which any sub-sequence of n consecutive elements occurs at most once in a period in either direction. In particular we establish how two variants of a generalised Lempel homomorphism can be used to recursively construct such sequences, generalising previous work on the binary case. We also derive an upper bound on the period of an orientable sequence.",
+            "year" : 2024
+        },
+        {
+            "title" : "Hadamard matrices, quaternions, and the Pearson chi-square statistic",
+            "authors" : "A Alhakim",
+            "journal" : "Statistical Papers, 1-19",
+            "description" : "<strong>Abstract</strong><br><br>The symbolic partitioning of the Pearson chi-square statistic with unequal cell probabilities into asymptotically independent component tests is revisited. We introduce Hadamard-like matrices whose resulting component tests compares the full vector of cell counts. This contributes to making these component tests intuitively interpretable. We present a simple way to construct the Hadamard-like matrices when the number of cell counts is 2, 4 or 8 without assuming any relations between cell probabilities. For higher powers of 2, the theory of orthogonal designs is used to set a priori relations between cell probabilities, in order to establish the construction. Simulations are given to illustrate the sensitivity of various components to changes in location, scale, skewness and tail probability, as well as to illustrate the potential improvement in power when the cell probabilities are changed.",
+            "year" : 2024
+        },
+        {
+            "title" : "Multi de Bruijn Sequences and the Cross-Join Method",
+            "authors" : "A Alhakim, J Szmidt",
+            "journal" : "Mathematics 11 (5), 1262",
+            "description" : "<strong>Abstract</strong><br><br>We show a method to construct binary multi de Bruijn sequences using the cross-join method. We extend the proof given by Alhakim for ordinary de Bruijn sequences to the case of multi de Bruijn sequences. In particular, we establish that all multi de Bruijn sequences can be obtained by cross-joining an ordinary de Bruijn sequence concatenated with itself an appropriate number of times. We implemented the generation of all multi de Bruijn sequences of type C(2,2,2) and C(3,2,2). We experimentally confirm that some multi de Bruijn sequences can be generated by Galois Nonlinear Feedback Shift Registers (NLFSRs). It is supposed that all multi de Bruijn sequences can be generated using Galois NLFSRs.",
+            "year" : 2023
+        },
+        {
+            "title" : "MORE DE BRUIJN SEQUENCES AS CONCATENATION OF LYNDON WORDS",
+            "authors" : "A Alhakim",
+            "journal" : "<a href='https://boolean.w.uib.no/files/2023/08/BFA2023_paper_15.pdf'>PDF</a>",
+            "description" : "<strong>Abstract</strong><br><br>We consider a de Bruijn sequence dB over a finite alphabet that is constructed via a preference function P. We use P to introduce a total order on the set of all sequences and show that it lists the de Bruijn sequences of a given order so that dB is the minimal sequence. We also show that an appropriate bijective image of the binary, prefer-opposite de Bruijn sequence is uniquely factored as a concatenation of Lyndon words. This presents a second example to the well known prefer-one de Bruijn sequence, both in terms of minimality, and in terms of concatenation of Lyndon words. We also present other examples that suggest that the concatenation property is universal for all de Bruijn sequences.",
+            "year" : 2023
+        },
+        {
+            "title" : "Designing preference functions for de Bruijn sequences with forbidden words",
+            "authors" : "A Alhakim",
+            "journal" : "Designs, Codes and Cryptography 90 (10), 2319-2335",
+            "description" : "<strong>Abstract</strong><br><br>A preference function provides a method to build periodic sequences by specifying a set of rules that determine which symbols are to be attempted before others, when the sequence is constructed one symbol at a time. The well-known prefer-one, prefer-opposite, and prefer-same binary de Bruijn sequences are all constructed using appropriate preference functions. In this article we provide some fairly general results that give conditions for a pair of an initial word and a preference function on a q-ary alphabet to produce sequences that include every pattern of given size n &#8805; 1–except possibly some specified set of patterns. We provide several old and new constructions that showcase the flexibility of the results. Specifically, we give a construction for square-free and general separative de Bruijn sequences. The existence of these sequences was established more than a decade ago but nonconstructively. An important special case of these separative sequences produces universal cycles for permutations. We also build a preference function for binary de Bruijn sequences of patterns with a maximum density of ones. As for full de Bruijn sequences, the main result helps furnish a recursive construction from arbitrary cyclic permutations of q symbols. Finally, we build a preference function that extends a full de Bruijn sequence of order n into one of order n + 1.",
+            "year" : 2022
+        },
+        {
+            "title" : "Nonbinary Counterparts of the Prefer-Same and Prefer-Opposite de Bruijn Sequences",
+            "authors" : "A Alhakim",
+            "journal" : "https://doi.org/10.48550/arXiv.2206.04408",
+            "description" : "<strong>Abstract</strong><br><br>The well known prefer-one, prefer-opposite, and prefer-same binary de Bruijn sequences are all constructed using simple preference rules. We apply the technique of preference functions of span one to define q-ary sequences that generalize the prefer-opposite and prefer-same sequences and we present some of their basic properties that are shared with their binary versions. In particular, we show that the prefer-higher sequence (the nonbinary counter-part of the prefer-one sequence) is obtained from a homomorphic image of the proposed prefer-opposite, when repetitions are cleaned up. This mirrors a known relationship between the binary versions. We also perform calculations that demonstrate that the discrepancy profile of the proposed sequences is similar to that of the binary case.",
+            "year" : 2022
+        },
+        {
+            "title" : "Revisiting the prefer-same and prefer-opposite de Bruijn sequence constructions",
+            "authors" : "A Alhakim, E Sala, J Sawada",
+            "journal" : "Theoretical Computer Science 852, 73-77",
+            "description" : "<strong>Abstract</strong><br><br>We present a simple greedy algorithm to construct the prefer-same de Bruijn sequence and prove that it is equivalent to the more complex algorithm first stated by Eldert et al. without proof (Eldert et al., 1958 [3]), and later by Fredricksen (Fredricksen, 1982 [5]). Then we prove that the resulting sequence has the lexicographically largest run-length representation among all de Bruijn sequences. Furthermore, we prove that the sequence resulting from a prefer-opposite greedy construction has the lexicographically smallest run-length representation among all de Bruijn sequences.",
+            "year" : 2021
+        },
+        {
+            "title": "The density flatness phenomenon",
+            "authors": "A Alhakim, S Molchanov",
+            "journal": "Statistics & Probability Letters 152, 156-161",
+            "description": "<strong>Abstract</strong><br><br>This paper investigates a curious phenomenon of some positive random variables having a constant density in some initial subinterval of their support. We discuss two methods of obtaining such a random variable with partly flat density. The main method is to sum powers of independent uniform variables with the number of terms matching the power. We show that the limit of this sum is an interesting infinitely divisible distribution and we study its basic properties, find a differential equation for its density, and obtain a recursive relation satisfied by its moments which allows for the calculation of its moment generating function and cumulants.",
+            "year": 2019
+        },
+        {
+            "title": "A Module for Protecting Data Location Privacy on Mobile Devices",
+            "authors": "F Makki, W El-Hajj, H Safa, A Alhakim",
+            "journal": "2018 14th International Wireless Communications & Mobile Computing …",
+            "description": "<strong>Abstract</strong><br><br>When downloading an application by a smartphone user, the application asks the user to accept a set of permissions allowing it to access sensitive information on the phone. It is mostly unclear how, when, and why such data will be used. openPDS is a framework that was proposed to limit such privacy invasion. Although openPDS protects the user's raw data, sensitive personal information, such as location trace, can still be inferred by the service provider by analyzing the accumulated answers. In this paper, we aim to append openPDS with a module that prevents the service provider from reconstructing the trace of users. This module abides with the QoS requirements necessitated by the provider, and defined as the tolerance of the application to inaccurate answers. Our approach was tested on 10 users whose locations traces were recorded for 10 months. Results show that no user trace was successfully reconstructed even when high QoS levels were required.",
+            "year": 2018
+        },
+        {
+            "title": "Stretching de Bruijn sequences",
+            "authors": "A Alhakim, M Nouiehed",
+            "journal": "Designs, Codes and Cryptography 85, 381-394",
+            "description": "<strong>Abstract</strong><br><br>We give a one-step construction of de Bruijn sequences of general alphabet size and with order n + k, given a de Bruijn sequence of order n and any integer k &gt; 1. This is achieved by using an appropriate class of graph homomorphisms between de Bruijn digraphs whose orders differ by an integer k. The method starts with a lower order de Bruijn cycle, finds its inverse cycles in the higher order digraph, which are then cross-joined into one full cycle. Therefore, this generalizes the Lempel’s binary construction and the Alhakim–Akinwande construction for non-binary alphabets and a wide class of homomorphisms.",
+            "year": 2017
+        },
+        {
+            "title": "De Bruijn Sequences with Varying Combs.",
+            "authors": "A Alhakim, S Butler, R Graham",
+            "journal": "Integers 14, A1",
+            "description": "<strong>Abstract</strong><br><br>For a given alphabet A and length n, a de Bruijn sequence corresponds to a string of length| A| n where every string of length n occurs as a consecutive substring (and we allow the ends to wrap around). We consider the relaxation wherein the letters of the substring are not consecutive but rather fixed by some pattern, called a comb. We give several constructions showing how to construct some sequences for combs, as well as give several ways to form combs without de Bruijn sequences.",
+            "year": 2014
+        },
+        {
+            "title": "Spans of preference functions for de Bruijn sequences",
+            "authors": "A Alhakim",
+            "journal": "Discrete Applied Mathematics 160 (7-8), 992-998",
+            "description": "<strong>Abstract</strong><br><br>A nonbinary Ford sequence is a de Bruijn sequence generated by simple rules that determine the priorities of what symbols are to be tried first, given an initial word of size n which is the order of the sequence being generated. This set of rules is generalized by the concept of a preference function of span n−1, which gives the priorities of what symbols to appear after a substring of size n−1 is encountered. In this paper, we characterize preference functions that generate full de Bruijn sequences. More significantly, we establish that any preference function that generates a de Bruijn sequence of order n also generates de Bruijn sequences of all orders higher than n, thus making the Ford sequence no special case. Consequently, we define the preference function complexity of a de Bruijn sequence to be the least possible span of a preference function that generates this de Bruijn sequence.",
+            "year": 2012
+        },
+        {
+            "title": "Limit Theorems for Bessel Processes in General Dimension d",
+            "authors": "A ALHAKIM, S MOLCHANOV",
+            "journal": "MARKOV PROCESSES AND RELATED FIELDS 18 (4), 693-700",
+            "description": "<strong>Abstract</strong><br><br>Bessel processes are natural generalizations of the radial part of a Brownian motion in multi-dimensions. Limit Theorems for the first passage time to some neighborhood of the origin play an important role in the spectral theory of Schrodinger type operators. We calculate explicit limit laws in the full range of the parameter d (the “dimension” parameter of the Bessel process) and we establish some kind of symmetry around the singular dimension d = 2.",
+            "year": 2012
+        },
+        {
+            "title": "A recursive construction of nonbinary de Bruijn sequences",
+            "authors": "A Alhakim, M Akinwande",
+            "journal": "Designs, Codes and Cryptography 60, 155-169",
+            "description": "<strong>Abstract</strong><br><br>This paper presents a method to find new de Bruijn sequences based on ones of lesser order. This is done by mapping a de Bruijn cycle to several vertex disjoint cycles in a de Bruijn digraph of higher order and then connecting these cycles into one full cycle. We present precise formulae for the locations where those cycles can be rejoined into one full cycle. We obtain an exponentially large class of distinct de Bruijn cycles. This method generalizes the Lempel construction of binary de Bruijn sequences as well as its efficient implementation by Annextein.",
+            "year": 2011
+        },
+        {
+            "title": "A simple combinatorial algorithm for de Bruijn sequences",
+            "authors": "AM Alhakim",
+            "journal": "The American Mathematical Monthly 117 (8), 728-732",
+            "description": "<strong>Abstract</strong><br><br>This paper presents a combinatorial method to construct a de Bruijn sequence for any order n. The method is similar to that of the well-known prefer-one algorithm. The resulting sequences are compared and both methods are shown to be special cases of a unifying graph construction that is capable of generating all de Bruijn sequences.",
+            "year": 2010
+        },
+        {
+            "title": "A multiple stream generator based on de Bruijn digraph homomorphisms",
+            "authors": "A Alhakim, M Akinwande",
+            "journal": "Journal of Statistical Computation and Simulation 79 (11), 1371-1380",
+            "description": "<strong>Abstract</strong><br><br>We propose a method to obtain several streams of pseudorandom numbers based on a backbone generator of the generalized shift register type. The method is based on inverting one cycle in a de Bruijn digraph into many sequences in a higher-order de Bruijn graph via an appropriate graph homomorphism. We apply this technique to twisted generalized feedback shift register generators and to the Mersenne Twister MT19937. Positive results of statistical testing are reported.",
+            "year": 2009
+        },
+        {
+            "title": "De Bruijn Graph Homomorphisms and Recursive De Bruijn Sequences",
+            "authors": "A Alhakim, M Akinwande",
+            "journal": "arXiv preprint arXiv:0812.4012",
+            "description": "<strong>Abstract</strong><br><br>This paper presents a method to find new De Bruijn cycles based on ones of lesser order. This is done by mapping a De Bruijn cycle to several vertex disjoint cycles in a De Bruijn digraph of higher order and connecting these cycles into one full cycle. We characterize homomorphisms between De Bruijn digraphs of different orders that allow this construction. These maps generalize the well-known D-morphism of Lempel between De Bruijn digraphs of consecutive orders. Also, an efficient recursive algorithm that yields an exponential number of nonbinary De Bruijn cycles is implemented.",
+            "year": 2008
+        },
+        {
+            "title": "A non-parametric test for several independent samples",
+            "authors": "A Alhakim, W Hooper",
+            "journal": "Journal of Nonparametric Statistics 20 (3), 253-261",
+            "description": "<strong>Abstract</strong><br><br>We introduce a large sample non-parametric test for the hypothesis of equal distributions of three or more independent samples. The test can be considered as a generalisation of the two sample run tests of Wald and Wolfowitz in that it sorts the data and replaces the values with the ‘label’ of the sample from which they come, thus transforming the problem to a question about the randomness of the resulting pooled sample. The test statistic and its asymptotic null distribution are derived using the central limit theorem of finite Markov chains. Simulation results and comparisons with the standard k-sample Kruskal–Wallis and Kolmogorov–Smirnov tests are given. One particular strength of the test is that it is capable of distinguishing between different distributions having the same mean in a few cases when the Kruskal–Wallis test is completely paralysed.",
+            "year": 2008
+        },
+        {
+            "title": "On the eigenvalues and eigenvectors of an overlapping Markov chain",
+            "authors": "A Alhakim",
+            "journal": "Probability theory and related fields 128, 589-605",
+            "description": "<strong>Abstract</strong><br><br>Starting with a sequence of i.i.d. [uniform] random variables with m possible values, we consider the overlapping Markov chain formed by sliding a window of size k through the i.i.d. sequence. We study the limiting covariance matrix B<sub>k</sub> of this Markov chain and give algorithms for constructing the eigenvectors of B<sub>k</sub> . We also discuss the applicability of the results in strengthening Pearson’s χ2 test as well as the relation to approximate entropy and the usefulness in the area of testing the hypothesis of uniformity of random number generators.",
+            "year": 2004
+        },
+        {
+            "title": "Some Markov chains on abelian groups with applications",
+            "authors": "A Alhakim, S Molchanov",
+            "journal": "Random walks and geometry, 3-33",
+            "description": "<strong>Abstract</strong><br><br>We study limit theorems for the local times of the special Markov chains:“quasirandom walks” on the group Wk of binary words of length k, associated with the Bernoulli schemes. Applications include the asymptotical analysis of the computational complexity (due to recent ideas by Kalman, Pinkus and Singer) and new tests for random number generators.",
+            "year": 2004
+        },
+        {
+            "title": "On the Class of Nilpotent Markov Chains, I. The Spectrum of Covariance Operator.",
+            "authors": "A Alhakim, J Kawczak, S Molchanov",
+            "journal": "Markov Processes and Related Fields 10, 629-652",
+            "description": "<strong>Abstract</strong><br><br>We study the central limit theorem and the structure of the corresponding covariance operator for the Markov chains generated by successive (overlapping) k-tuples (Xn+ 1,..., Xn+ k), n= 0, 1,... formed from the iidrv {Xn}. The potential application of the theory includes the design of statistical tests. In particular, we present the explicit spectral analysis of the covariance matrices related to Marsaglia’sk permutation test for k= 2, 3, 4, 5.",
+            "year": 2004
+        },
+        {
+            "title": "Some Markov chains on Abelian groups and applications to approximate entropy and to the testing of random number generator",
+            "authors": "A Alhakim, S Molchanov",
+            "journal": "Proceedings of a Workshop on Random Walks and Geometry at the Erwin Shrödinger Institute, Keimanovich, VA, Schmidt, K., Woess, W., eds. Vienna",
+            "description": "",
+            "year": 2001
+        }
+    ],
+        "teaching": [
+            {
+                "title": "Discrete Mathematics",
+                "CNO": "MATH211",
+                "institution": "AUB",
+                "description": "Logical reasoning, sets, relations and functions; mathematical induction, counting, and simple finite probability theory; analysis of algorithms, complexity; recurrence relations and difference equations; truth tables and switching circuits; graphs and trees; strings and languages.",
+                "frequency": 7
+            },
+            {
+                "title": "Probability and Random Variables for Engineers",
+                "CNO": "STAT230",
+                "institution": "AUB",
+                "description": "Basic Engineering Statistics that includes such topics as introductory probability, conditional probability and independence, Bayes’ formula, discrete and continuous random variables and their moments, the central limit theorem, confidence intervals, hypothesis testing, covariance, correlation and simple linear regression.",
+                "frequency": 32
+            },
+            {
+                "title": "Introduction to Probability",
+                "CNO": "STAT233",
+                "institution": "AUB",
+                "description": "Axiomatic definition of probability, discrete and continuous random variables and their distributions, moment generating functions, stochastic convergence and the central limit theorem.",
+                "frequency": 8
+            },
+            {
+                "title": "Introduction to the Theory of Statistical Inference",
+                "CNO": "STAT234",
+                "institution": "AUB",
+                "description": "Sampling distribution, unbiasedness, sufficiency and efficiency of point estimators, confidence interval estimation, maximal likelihood theory, Neumann-Pearson theory of hypothesis testing.",
+                "frequency": 8
+            },
+            {
+                "title": "Theory of Statistical Sampling",
+                "CNO": "STAT236",
+                "institution": "AUB",
+                "description": "Methods of sampling and their characteristics, including simple random sampling, cluster sampling, stratified sampling, two-stage and multistage sampling, ratio and regression sampling, capture-recapture methods and the problem of non-response.",
+                "frequency": 4
+            },
+            {
+                "title": "Nonparametric Statistics",
+                "CNO": "STAT237",
+                "institution": "AUB",
+                "description": "Order statistics, basic nonparametric tests for one, two or more samples, including binomial tests, the sign test, the Wilcoxon-signed rank test, the Mann-Whitney test, the Kruskall-Wallis test, goodness-of-fit tests and efficiency. Many variants of these tests are also discussed.",
+                "frequency": 4
+            },
+            {
+                "title": "Applied Probability",
+                "CNO": "STAT238",
+                "institution": "AUB",
+                "description": "Conditional probability and various methods of finding expectation and variance, discrete and continuous time Markov chains, classification of states, stationary distributions, Kolmogorov backward and forward differential equations, Poisson, branching, birth and death processes, properties of the exponential distribution, arrival times, queuing theory.",
+                "frequency": 3
+            },
+            {
+                "title": "A Reading Course in Graduate Probability",
+                "CNO": "",
+                "institution": "AUB",
+                "description": "A course in measure theoretic probability--using Billingsley’s book—and it was attended by three students.",
+                "frequency": 1
+            },
+            {
+                "title": "Introductory Stochastic Analysis",
+                "CNO": "MATH338",
+                "institution": "AUB",
+                "description": "A newly designed graduate course that introduces the essential models of stochastic processes (Brownian motion, Markov processes, Martingales) and their basic theorems. It is geared towards the development of stochastic integration with respect to a martingale, which is an essential topic in mathematical finance. Taught (currently) in Fall 2019/2020.",
+                "frequency": 1
+            },
+            {
+                "title": "Calculus I",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Calculus II",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Foundations/Discrete Mathematics",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 2
+            },
+            {
+                "title": "Elementary Linear Algebra",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "A course on basic linear algebra given to students majoring in nursing, nutrition and food sciences. It stressed on the solutions of systems of linear equations. Matrices and their basic factorization algorithms, eigenvalues and eigenvectors are introduced and studied in this capacity.",
+                "frequency": 2
+            },
+            {
+                "title": "General Statistics",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "A non-calculus based statistics course offered to life sciences and social sciences students. It discusses discrete and continuous probability, random variables and their expectation, confidence intervals and hypothesis tests, including t tests, F tests and goodness of fit tests.",
+                "frequency": 4
+            },
+            {
+                "title": "Online General Statistics",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "An online version of the previous course. It was completely given online, including power point slides, video lectures, homework sets. Tests and final examination were also given online.",
+                "frequency": 2
+            },
+            {
+                "title": "Applied Linear Algebra",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 2
+            },
+            {
+                "title": "Applied Statistics",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "Equivalent to AUB’s STAT230, but with more Applied Statistics.",
+                "frequency": 3
+            },
+            {
+                "title": "Mathematical Statistics I",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "This was cross-listed as both graduate and undergraduate. The undergraduate part is essentially equivalent to AUB’s STAT234. The graduate part spanned more content such as Fisher information, limit theorems for maximal likelihood estimators, decision theory.",
+                "frequency": 2
+            },
+            {
+                "title": "Statistics Module for MBA",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "This is an intensive two-week course given to graduate pre-MBA students as a brainstorming reminder of the methods and techniques of basic random variables and statistical inference.",
+                "frequency": 2
+            },
+            {
+                "title": "Simulation and Monte Carlo",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "Beginning graduate level on the Monte Carlo simulation, basic review of relevant probability and statistics, random number generation methods, rejection and importance sampling, Metropolis Hastings and Gibbs sampling, perfect sampling, diagnosis of convergence for MCMC schemes.",
+                "frequency": 1
+            },
+            {
+                "title": "Directed Study",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "Graduate level courses given to individual students to fulfill requirements and prepare for qualifying exams.",
+                "frequency": 3
+            },
+            {
+                "title": "Point Set Topology",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Theory of Markov Chains",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Topics in Stochastic Processes",
+                "CNO": "",
+                "institution": "Clarkson University",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Introduction to Computer Programming",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "College Algebra",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Pre-Calculus",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Calculus I",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Calculus II",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Calculus III",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Finite Mathematics",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "General Statistics",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            },
+            {
+                "title": "Mathematical Statistics",
+                "CNO": "",
+                "institution": "University of Delaware",
+                "description": "",
+                "frequency": 1
+            }
+        ]
+        
+}
