@@ -206,6 +206,12 @@ hr.dotted {
     padding-bottom: 3.3vw;
 }
 
+.hover-card:hover:after {
+    content: "View Less";
+    opacity: 100%;
+    text-align: center;
+    text-shadow: 0 0 1vw gray;
+}
 .hover-card2:hover:after {
     content: "View More";
     opacity: 100%;
@@ -318,6 +324,13 @@ hr.dotted {
     }
     .research-subnode {
         flex-direction: column;
+    }
+    .hover-card::after {
+        content: "View Less";
+        font-size: 3vw;
+        opacity: 100%;
+        text-align: center;
+        text-shadow: 0 0 1vw gray;
     }
     .hover-card2::after {
         content: "View More";

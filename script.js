@@ -4,7 +4,7 @@ function dropdown(x) {
     document.getElementsByClassName("drop-down")[0].classList.toggle("shown");
 }
 function toggleCard(x, desc) {
-    x.classList.toggle("hover-card");
+    x.classList.toggle("hover-card2");
 
     var mapper = {"block":"none", "none": "block"}
     desc.style.setProperty("display", mapper[desc.style.display]);
@@ -17,7 +17,7 @@ function researchFetch() {
             researchJSON = json;
             researchJSON.research.forEach((r) => {
                 var node = document.createElement("div")
-                node.className = `research-card hover-card ${r.description.length > 0 ? "hover-card2":""}`;
+                node.className = `research-card hover-card ${r.description.length > 0 ? "hover-card hover-card2":""}`;
                 var titleElm = document.createElement("p")
                 titleElm.className = "research-title-elm";
                 titleElm.innerHTML = "<strong>" + r.title + "</strong>";
@@ -65,7 +65,7 @@ function teachingFetch() {
             teachingJSON = json;
             teachingJSON.teaching.forEach((r) => {
                 var node = document.createElement("div")
-                node.className = `research-card teaching hover-card ${r.description.length > 0 ? "hover-card2":""}`;
+                node.className = `research-card teaching hover-card ${r.description.length > 0 ? "hover-card hover-card2":""}`;
                 var titleElm = document.createElement("p")
                 titleElm.className = "research-title-elm";
                 titleElm.innerHTML = "<strong>" + r.title + "</strong>";
